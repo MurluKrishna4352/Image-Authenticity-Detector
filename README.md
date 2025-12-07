@@ -281,6 +281,17 @@ Processing Time: 0.42 seconds
 python predict_batch.py --input_dir ./images/ --model saved_models/best_model.pth
 ```
 
+### 🌐 Web Interface (Dashboard)
+We provide a user-friendly Streamlit dashboard to test the models interactively.
+
+1. **Ensure models are present:**
+   Make sure your `.h5` model files are located in the `models/` directory:
+   - `models/resnet50_model.h5`
+   - `models/efficientnetb0_model.h5`
+
+2. **Run the App:**
+   ```bash
+   streamlit run app.py
 ---
 
 ## 📈 Results & Performance
