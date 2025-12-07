@@ -280,8 +280,9 @@ Processing Time: 0.42 seconds
 ```bash
 python predict_batch.py --input_dir ./images/ --model saved_models/best_model.pth
 ```
+---
 
-### 🌐 Web Interface (Dashboard)
+## 🌐 Web Interface (Dashboard)
 We provide a user-friendly Streamlit dashboard to test the models interactively.
 
 1. **Ensure models are present:**
